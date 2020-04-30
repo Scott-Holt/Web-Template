@@ -1,0 +1,60 @@
+@import 'variables.scss';
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    // font-family:
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+body{
+    // max-width:2100px;
+    width: 100%;
+    overflow-y: scroll; 
+}
+
+.container{
+
+}
+
+h1, h2, span, a, button{
+    text-transform:uppercase;
+}
+
+
+img{
+    width: 100%;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.background-img-settings{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+p{
+    // font-family:;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
